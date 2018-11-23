@@ -1,0 +1,49 @@
+.todos-toolbar{
+    border-top: 1px solid #E6E6E6;
+    font-family: 'Work Sans', sans-serif;
+    display: flex !important;
+    padding: 0.8em;
+    font-size: 16px;
+    justify-content: center;
+    }
+
+    .todos-toolbar_unready-counter{
+        max-width: 100px;
+        margin-right: auto;
+        padding: 0.25em;
+        /*Пофиксить*/
+        align-items: center;
+        }
+    .todos-toolbar_filters{
+        /*display: inherit;*/
+        padding: 0.25em;
+        text-align: center;
+        }
+        .todos-toolbar_filters-item{
+            padding: 0.3em;
+            border: 1px solid transparent;
+            border-radius: 4px;
+            background-color: #fff;
+            color: #000;
+            text-decoration: none;
+            cursor: pointer;
+
+            }
+
+            .todos-toolbar_filters-item:hover {
+                border: 1px solid #EBDFDF;
+                }
+            .todos-toolbar_filters-item.active {
+                border-color: #61C3B1;
+                }
+
+    .todos-toolbar_clear-completed{
+        margin-left: auto;
+        padding: 0.25em;
+        border: 1px solid transparent;
+        border-radius: 4px;
+        background-color: #fff;
+        color: #000;
+        text-decoration: none;
+        cursor: pointer;
+        }

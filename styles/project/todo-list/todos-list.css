@@ -12,8 +12,10 @@
             clear: both;
             display: table;
             }
-
-
+        .todos-list_item:hover{
+            background: #fafafa;
+            cursor: pointer;
+        }
         .todos-list_item_ready-marker {
             align-self: center;
             float: left;
@@ -26,6 +28,8 @@
             }
 
         .todos-list_item_text {
+            cursor: text;
+            font-family: 'Times New Roman', 'Helvetica Neue', Arial, sans-serif;
             width: 100%;
 
             }

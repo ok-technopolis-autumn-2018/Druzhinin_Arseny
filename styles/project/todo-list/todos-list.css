@@ -13,7 +13,8 @@
             display: table;
             }
         .todos-list_item:hover{
-            background: #fafafa;
+            z-index: -1;
+            background: rgba(0,0,0,0.03);
             cursor: pointer;
         }
         .todos-list_item_ready-marker {
@@ -29,9 +30,9 @@
 
         .todos-list_item_text {
             cursor: text;
-            font-family: 'Times New Roman', 'Helvetica Neue', Arial, sans-serif;
+            font-family: 'Roboto', sans-serif !important;
             width: 100%;
-
+            padding-top: 9px;
             }
 
         .todos-list_item_text:focus {

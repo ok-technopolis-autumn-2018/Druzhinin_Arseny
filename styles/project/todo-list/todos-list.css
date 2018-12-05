@@ -30,9 +30,9 @@
 
         .todos-list_item_text {
             cursor: text;
-            font-family: 'Roboto', sans-serif !important;
+            font-family: 'HelveticaNeueCyr', 'Helvetica Neue' , Arial, sans-serif !important;
             width: 100%;
-            padding-top: 9px;
+            padding-top: 12px;
             }
 
         .todos-list_item_text:focus {
